@@ -10,6 +10,8 @@ Por favor, verifique frequentemente pois esta página pode sofrer alterações.
 
  * 06/10 - introdução
  * 20/10 - crypto
+   * [vídeos Criptografia 1 a 9](https://www.youtube.com/playlist?list=PLtQaN06AB3mJJXu7cuoK7KaL9e0KfChuQ)
+   * [livro](http://toc.cryptobook.us/book.pdf)
  * 27/10 - crypto (**apresentações**)
  * 10/11 - web
  * 17/11 - web (**apresentações**)
