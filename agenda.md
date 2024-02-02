@@ -23,7 +23,7 @@ Por favor, verifique frequentemente pois esta página pode sofrer alterações.
  * 12/01 - pwn
  * 19/01 - pwn (**apresentações**)
  * 26/01 - redes (hands-on) + sistemas ciberfísicos
- * 02/02 - sistemas ciberfísicos (**apresentações**)
+ * ~~02/02~~ 09/02 - sistemas ciberfísicos (**apresentações**)
 
 # CTFs
 
