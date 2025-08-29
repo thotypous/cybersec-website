@@ -4,7 +4,7 @@ title: Atividades
 permalink: /atividades/
 ---
 
-As atividades devem ser escolhidas por cada grupo [nesta planilha](https://docs.google.com/spreadsheets/d/1YRd4UWz4dbQmfEXmG74fhMNZ5kfziQjwIiVbDuroqiI/edit?usp=sharing).
+As atividades devem ser escolhidas por cada grupo [nesta planilha](https://docs.google.com/spreadsheets/d/1xPWUp2ePsUlc5jFmaMqcsiv_hSrl57gigbIOGxWdwzQ/edit?usp=sharing).
 
 1. A escolha dos desafios é por ordem de chegada! **Não demore para escolher o seu**. Para indicar que vocês estão trabalhando em um certo desafio, marquem **imediatamente** os membros do grupo na coluna `Membros do grupo`. Se ainda não tiverem escolhido todos os membros do grupo, marquem pelo menos um dos membros na planilha, para demarcar que aquele desafio já foi escolhido por alguém!
 
