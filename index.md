@@ -9,6 +9,10 @@ Utilize o menu superior para acessar as informações sobre a disciplina.
 
  * Sextas-feiras das 8h às 12h<br />Auditório Mauro Biajiz – Departamento de Computação
 
+## Material da aula atual
+
+ * [Aula inaugural — introdução e princípios de segurança (PDF)](/static/aula-01-introducao-principios-seguranca.pdf)
+
 ## Links
 
  * [Playlist](https://www.youtube.com/playlist?list=PLtQaN06AB3mJJXu7cuoK7KaL9e0KfChuQ)
