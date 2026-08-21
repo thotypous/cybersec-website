@@ -12,5 +12,5 @@ Utilize o menu superior para acessar as informações sobre a disciplina.
 ## Links
 
  * [Playlist](https://www.youtube.com/playlist?list=PLtQaN06AB3mJJXu7cuoK7KaL9e0KfChuQ)
- * Grupo da disciplina – [Telegram](https://t.me/+TcqtQo89B1tlOTdh)
- * [Lista de presença](https://docs.google.com/spreadsheets/d/1aY6VKJtsf2yPHfK6ZsS69Y-iH6xCOejE3MBrKeg0DjM/edit?usp=sharing) (obrigatório login)
+ * Grupo da disciplina – [Telegram](https://t.me/+FmlB79ulkiM0ZTNh)
+ * [Lista de presença](https://docs.google.com/spreadsheets/d/1Q5En0zStIEexwwumEDd8pPrn5ngkgKSuAg7ncjw7hp0/edit?usp=sharing) (obrigatório login)
