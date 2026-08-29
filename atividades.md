@@ -45,7 +45,7 @@ As apresentações constituem cinco avaliações de mesmo peso. Em cada uma dela
   </div>
 </div>
 
-Todas as apresentações estão marcadas das **8h às 12h**, no auditório do DC. Consulte sempre a [agenda da disciplina]({{ '/agenda/' | relative_url }}): o Google Agenda é a referência para eventuais alterações. Segurança de Redes não possui avaliação por apresentação de desafio e, por isso, não há uma aba correspondente na planilha.
+Consulte sempre a [agenda da disciplina]({{ '/agenda/' | relative_url }}), que é a referência para eventuais alterações. Segurança de Redes não possui avaliação por apresentação de desafio e, por isso, não há uma aba correspondente na planilha.
 
 ## Como preparar cada apresentação
 
