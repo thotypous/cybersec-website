@@ -151,6 +151,140 @@
     font-size: 20px;
 }
 
+/**
+ * Material didático e chamadas para ação
+ */
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin: 8px 0 $spacing-unit;
+}
+
+.post-content .resource-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 215px;
+    padding: 22px;
+    border: 1px solid $grey-color-light;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 18px rgba(30, 30, 50, .06);
+
+    h3 {
+        margin: 4px 0 10px;
+        color: $clemson-purple;
+        font-style: normal;
+        font-size: 1.35em;
+        line-height: 1.2;
+    }
+
+    p {
+        flex: 1;
+        color: $grey-color-dark;
+    }
+}
+
+.post-content .resource-card--featured {
+    border-top: 4px solid $clemson-orange;
+    padding-top: 19px;
+}
+
+.resource-card__eyebrow {
+    color: darken($clemson-orange, 8%);
+    font-size: .76em;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.resource-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 8px;
+}
+
+.resource-actions--standalone {
+    margin: 4px 0 $spacing-unit;
+}
+
+.resource-button {
+    display: inline-block;
+    padding: 9px 14px;
+    border: 1px solid $brand-color;
+    border-radius: 6px;
+    background: $brand-color;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.25;
+
+    &:visited {
+        color: #fff;
+    }
+
+    &:hover {
+        background: darken($brand-color, 8%);
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.resource-button--secondary {
+    background: transparent;
+    color: $brand-color;
+
+    &:visited {
+        color: $brand-color;
+    }
+
+    &:hover {
+        background: lighten($brand-color, 48%);
+        color: darken($brand-color, 10%);
+    }
+}
+
+.selection-callout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $spacing-unit;
+    margin: 6px 0 $spacing-unit;
+    padding: 22px;
+    border-left: 5px solid $clemson-orange;
+    border-radius: 8px;
+    background: lighten($clemson-orange, 34%);
+
+    h2 {
+        margin: 3px 0 5px;
+        color: $clemson-purple;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .resource-button {
+        flex: 0 0 auto;
+    }
+}
+
+@include media-query($on-palm) {
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-card {
+        min-height: 0;
+    }
+
+    .selection-callout {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -254,4 +388,3 @@ ul.listing li.listing-item a {
 	font-weight: 400;
 	font-family: 'Titillium Web', sans-serif;
 }
-
