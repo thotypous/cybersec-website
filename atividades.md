@@ -13,13 +13,64 @@ permalink: /atividades/
   <a class="resource-button" href="https://docs.google.com/spreadsheets/d/1_rbJMOdoRXFIwqIk9_CDqoTDYKzNedFJIZ129Wv2i_k/edit?usp=sharing">Abrir planilha de desafios</a>
 </div>
 
-1. A escolha dos desafios é por ordem de chegada! **Não demore para escolher o seu**. Para indicar que vocês estão trabalhando em um certo desafio, marquem **imediatamente** os membros do grupo na coluna `Membros do grupo`. Se ainda não tiverem escolhido todos os membros do grupo, marquem pelo menos um dos membros na planilha, para demarcar que aquele desafio já foi escolhido por alguém!
+As apresentações constituem cinco avaliações de mesmo peso. Em cada uma delas, o grupo escolhe um desafio do tema correspondente, estuda e reproduz sua resolução, acrescenta uma contribuição própria e apresenta o trabalho para discussão em sala.
 
-2. Estudem o desafio com base nas referências indicadas e em outros materiais que vocês encontrarem na internet. Dentre as referências, há uma ou mais resoluções (write-ups) do desafio que foram escritas por equipes que já resolveram aquele desafio. É esperado que, após estudar os materiais, vocês **entendam** o que foi feito por essas equipes e sejam capazes de **explicar** as técnicas utilizadas para os colegas. Além disso, é muito importante que vocês tenham **reproduzido** a resolução do desafio na máquina de vocês e sejam capazes de **mostrar** isso. Alguns desafios envolvem a execução de um servidor para reproduzir o ambiente do dia do CTF, e nesses casos eu forneci nas referências algum link que contém o código do servidor. Se tiverem dificuldades para fazê-lo, não deixem de contactar o professor e o monitor pelo grupo no Telegram!
+## Datas das avaliações
 
-3. Depois que terminarem de estudar o desafio, escrevam um write-up de vocês, sintetizando e/ou complementando os materiais já existentes e inserindo as suas próprias percepções. Não deixem de incluir referências para os materiais que houverem consultado. Coloquem um link para o write-up que vocês escreverem na coluna `Write-up do grupo`. Vocês podem escolher o formato que considerarem mais adequado para o write-up. Por exemplo, pode ser um texto em markdown em um repositório do GitHub, ou um link para uma apresentação no Google Docs.
+<div class="assessment-list" aria-label="Calendário das avaliações por desafio">
+  <div class="assessment-item">
+    <span class="assessment-item__code">E1</span>
+    <span class="assessment-item__topic"><strong>Criptografia</strong><small>Aba Crypto</small></span>
+    <time datetime="2026-09-04">4 de setembro</time>
+  </div>
+  <div class="assessment-item">
+    <span class="assessment-item__code">E2</span>
+    <span class="assessment-item__topic"><strong>Segurança web</strong><small>Aba Web</small></span>
+    <time datetime="2026-09-18">18 de setembro</time>
+  </div>
+  <div class="assessment-item">
+    <span class="assessment-item__code">E3</span>
+    <span class="assessment-item__topic"><strong>Engenharia reversa</strong><small>Aba Rev</small></span>
+    <time datetime="2026-10-09">9 de outubro</time>
+  </div>
+  <div class="assessment-item">
+    <span class="assessment-item__code">E4</span>
+    <span class="assessment-item__topic"><strong>Exploração de binários</strong><small>Aba Pwn</small></span>
+    <time datetime="2026-11-13">13 de novembro</time>
+  </div>
+  <div class="assessment-item">
+    <span class="assessment-item__code">E5</span>
+    <span class="assessment-item__topic"><strong>Hardware e sistemas ciberfísicos</strong><small>Aba Hw</small></span>
+    <time datetime="2026-12-11">11 de dezembro</time>
+  </div>
+</div>
 
-4. Apresentem a resolução de vocês no dia designado para isso no calendário da disciplina (ou seja, no dia que possui a marcação `(P)` ao lado do nome da categoria).
+Todas as apresentações estão marcadas das **8h às 12h**, no auditório do DC. Consulte sempre a [agenda da disciplina]({{ '/agenda/' | relative_url }}): o Google Agenda é a referência para eventuais alterações. Segurança de Redes não possui avaliação por apresentação de desafio e, por isso, não há uma aba correspondente na planilha.
 
+## Como preparar cada apresentação
 
-Se quiser sugerir algum desafio que não está na lista de desafios indicados pelo professor, converse com o professor no máximo até a segunda-feira da semana em que vai acontecer a apresentação, para que ele possa verificar o valor didático do desafio e se não vai acontecer duplicidade de temas.
+1. **Escolham o desafio na aba correspondente à avaliação.** A reserva é por ordem de chegada. Preencham imediatamente a coluna `Membros do grupo` com todos os integrantes. Em uma mesma avaliação, um estudante não pode participar de mais de um grupo, e cada desafio pode ser reservado por apenas um grupo. As abas ainda sem desafios serão preenchidas ao longo do semestre.
+
+2. **Estudem criticamente os materiais públicos.** Comecem pelas referências da planilha, procurem outras fontes quando necessário e compreendam tanto a técnica utilizada quanto a teoria que a sustenta. O objetivo não é apenas repetir comandos de um write-up, mas conseguir justificar cada etapa da solução.
+
+3. **Reproduzam a resolução.** Preparem um ambiente local isolado e executem o desafio e o exploit ou solver de ponta a ponta. Quando os artefatos originais ou o servidor estiverem disponíveis, usem-nos. Se alguma adaptação for necessária, documentem claramente o que mudou, por quê e quais limitações permanecem.
+
+4. **Acrescentem uma contribuição própria.** Ela pode ser código para automatizar ou tornar a reprodução confiável, correções e complementos aos write-ups existentes, experimentos que esclareçam a vulnerabilidade, uma explicação teórica mais didática ou outra melhoria relevante. Organizem o resultado em um material compartilhável, como um repositório, write-up, notebook ou apresentação, e citem todas as fontes utilizadas.
+
+5. **Apresentem e discutam a solução na data da avaliação.** Mostrem a reprodução funcionando, expliquem as decisões técnicas e destaquem o que o grupo acrescentou aos materiais públicos. Todos os integrantes devem compreender o trabalho inteiro e estar preparados para responder a perguntas; o professor e os colegas podem dirigir perguntas a qualquer membro.
+
+Se encontrarem dificuldades de reprodução ou tiverem dúvidas sobre o escopo, conversem com o professor e o monitor pelo grupo da disciplina com antecedência — não deixem a validação do ambiente para a véspera.
+
+## O que será avaliado
+
+- a reprodução funcional do desafio e da solução;
+- a compreensão técnica demonstrada na explicação e nas respostas;
+- as contribuições próprias em código, documentação, experimentos, write-up ou apresentação;
+- a qualidade, a organização e a clareza do material e da exposição;
+- a participação individual na preparação, na apresentação e na discussão.
+
+O produto é desenvolvido em grupo, mas a **nota é individual**. Write-ups públicos podem e devem ser consultados quando forem úteis, desde que sejam devidamente citados. Apresentar material de terceiros como contribuição própria caracteriza plágio.
+
+## Desafios fora da planilha
+
+É possível propor outro desafio, mas ele precisa ser aprovado antes da escolha. Conversem com o professor **até a segunda-feira anterior à avaliação do tema**, para que seja possível verificar o valor didático, a dificuldade, a viabilidade de reprodução e uma possível duplicidade de conteúdo.

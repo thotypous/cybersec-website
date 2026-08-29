@@ -320,6 +320,55 @@
     }
 }
 
+.assessment-list {
+    overflow: hidden;
+    margin: 0 0 $spacing-unit;
+    border: 1px solid $grey-color-light;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.assessment-item {
+    display: grid;
+    grid-template-columns: 46px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px;
+
+    & + & {
+        border-top: 1px solid lighten($grey-color-light, 8%);
+    }
+
+    time {
+        color: $grey-color-dark;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+}
+
+.assessment-item__code {
+    padding: 4px 7px;
+    border-radius: 5px;
+    background: $clemson-purple;
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.assessment-item__topic {
+    strong,
+    small {
+        display: block;
+    }
+
+    small {
+        margin-top: 1px;
+        color: $grey-color;
+    }
+}
+
 @include media-query($on-palm) {
     .resource-grid {
         grid-template-columns: 1fr;
@@ -333,6 +382,16 @@
         align-items: flex-start;
         flex-direction: column;
         gap: 12px;
+    }
+
+    .assessment-item {
+        grid-template-columns: 42px minmax(0, 1fr);
+        gap: 10px;
+
+        time {
+            grid-column: 2;
+            font-size: 0.9rem;
+        }
     }
 
     .lesson-card {
