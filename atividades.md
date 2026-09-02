@@ -31,7 +31,7 @@ As apresentações constituem cinco avaliações de mesmo peso. Em cada uma dela
   <div class="assessment-item">
     <span class="assessment-item__code">E3</span>
     <span class="assessment-item__topic"><strong>Engenharia reversa</strong><small>Aba Rev</small></span>
-    <time datetime="2026-10-09">9 de outubro</time>
+    <time datetime="2026-10-09">2 de outubro</time>
   </div>
   <div class="assessment-item">
     <span class="assessment-item__code">E4</span>
